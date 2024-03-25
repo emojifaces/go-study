@@ -5,3 +5,4 @@
 - queue 队列
 - double-link 双向链表
 - circular-link 循环链表
+- binary-tree 二叉树
