@@ -2,3 +2,4 @@
 
 - skip-list 跳表
 - stack 栈
+- queue 队列
