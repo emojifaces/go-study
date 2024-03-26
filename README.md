@@ -6,3 +6,4 @@
 - double-link 双向链表
 - circular-link 循环链表
 - binary-tree 二叉树
+- avl 平衡二叉树
