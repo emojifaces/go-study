@@ -39,7 +39,7 @@ func (t *TreeNode) updateHeight() {
 	t.height = max(leftHeight, rightHeight) + 1
 }
 
-// 左旋
+// 左旋 对节点进行左旋，意味着将节点的右子作为节点的父节点，节点成为新父节点的左子。
 func (t *TreeNode) rotateLeft() *TreeNode {
 
 	if t == nil {
@@ -59,7 +59,7 @@ func (t *TreeNode) rotateLeft() *TreeNode {
 	return newRoot
 }
 
-// 右旋
+// 右旋 对节点进行右旋，意味着将节点的左子作为节点的父节点，节点成为新父节点的右子。
 func (t *TreeNode) rotateRight() *TreeNode {
 
 	if t == nil {
