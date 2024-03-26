@@ -8,3 +8,4 @@
 - binary-tree 二叉树
 - avl 平衡二叉树
 - trie 字典树
+- heap 堆
